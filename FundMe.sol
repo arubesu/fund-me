@@ -3,6 +3,8 @@ pragma solidity ^0.8.24;
 
 import {PriceConverter} from "./PriceConverter.sol";
 
+error NotOwner();
+
 contract FundMe {
     using PriceConverter for uint256;
     uint256 public constant MINIMUM_USD = 5e18; // Minimum funding amount in USD (in wei)
@@ -26,7 +28,7 @@ contract FundMe {
 
 
     modifier onlyOwner() {
-        require(msg.sender == i_owner);
+          if (msg.sender != i_owner) revert NotOwner();
         _;
     }
 
