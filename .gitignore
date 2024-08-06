@@ -1,0 +1,56 @@
+# Node.js modules
+node_modules/
+*.log
+
+# Dependency directories
+node_modules/
+lib/
+
+# Truffle Build Directory
+build/
+
+# Hardhat Build Directory
+artifacts/
+cache/
+
+# Coverage directory used by solidity-coverage
+coverage/
+
+# dotenv environment variable files
+.env
+.env.local
+.env.*.local
+
+# VSCode settings
+.vscode/
+
+# MacOS and Linux file system files
+.DS_Store
+*.swp
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Windows file system files
+Thumbs.db
+
+# IntelliJ IDEA project files
+.idea/
+
+# Remix IDE settings
+.remix.config
+
+# Compiled binary files
+*.bin
+*.abi
+
+# Solhint linter report
+reports/
+
+# Additional directories to ignore
+.deps/
+.states/
