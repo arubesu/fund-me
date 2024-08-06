@@ -17,4 +17,6 @@ require(msg.value >= 1e18, "You need to send more ETH");
 
 **Useful Links:**
 - Chainlink Data: [https://data.chain.link/](https://data.chain.link/)
+- Solidity by Example: [https://solidity-by-example.org/library/](https://solidity-by-example.org/library/)
+
 
